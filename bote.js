@@ -60,7 +60,7 @@
             }
         };
 		
-		/*bot.commands.flipcoinCommand = {
+		bot.commands.flipcoinCommand = {
             command: 'flipcoin',  //The command to be called. With the standard command literal this would be: !flipcoin
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
@@ -68,13 +68,13 @@
 				if (this.type === 'startsWith' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-					var FlipMsg = ["My magic coins says: Tails", "My magic coin says: Heads"];
+					var FlipMsg = ["/me My magic coins says: Tails", "My magic coin says: Heads"];
                         API.sendChat("@"+ data.from +" "+FlipMsg[Math.floor(Math.random() * FlipMsg.length)]);
                         boombot.misc.ready = false;
                         setTimeout(function(){ boombot.misc.ready = true; }, boombot.settings.cooldown * 1000);
 		}
 		}
-		};*/
+		};
         
    
         /*
