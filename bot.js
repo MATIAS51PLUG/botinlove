@@ -236,11 +236,11 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.8.17",
+        version: "3.0",
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/MATIAS51PLUG/botinlove/master/bot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
         chat: null,
@@ -248,7 +248,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "Adriana",
             language: "english",
             chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
