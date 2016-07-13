@@ -140,7 +140,7 @@
     "autowoot": "\/me We recommend PlugCubed for autowooting: http:\/\/plugcubed.net\/",
     "brandambassador": "\/me A Brand Ambassador is the voice of the plug.dj users. They promote events, engage the community and share the plug.dj message around the world. For more info: https:\/\/plug.dj\/ba",
     "bouncerplusrank": "\/me [@%%NAME%%] You have to be manager or up to enable Bouncer+.",
-    "chatcleared": "\/me [@%%NAME%%] Cleared the chat.",
+    "chatcleared": "\/me [@%%NAME%%] Cleared the chat for administrative reasons.",
     "deletechat": "\/me [@%%NAME%%] Cleared the chat of %%USERNAME%%.",
     "commandslink": "\/me My commands baby: http://epfcommands.hol.es/",
     "eatcookie": "\/me eats a cookie.",
