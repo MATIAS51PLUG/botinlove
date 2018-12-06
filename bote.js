@@ -134,7 +134,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Chloe",
         language: "english",
-        chatLink: "https://rawgit.com/MATIAS51PLUG/botinlove/master/english.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/MATIAS51PLUG/botinlove/english.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
@@ -196,6 +196,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://cdn.jsdelivr.net/gh/basicBot/source/basicBot.js", extend);
 
 }).call(this);
